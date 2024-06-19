@@ -30,6 +30,13 @@
   min-height: 80px;
   gap: 4px;
   background-color: white;
+  transition: all 0.1s;
+}
+
+.item_active {
+  border: 2px solid orange;
+  color: orange;
+  transform: scale(1.2);
 }
 
 .item__letter {
