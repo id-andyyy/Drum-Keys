@@ -1,0 +1,42 @@
+.auto-spaced-linear-gradient {
+  background: linear-gradient(white, rgb(239, 190, 239), white);
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.keys {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  color: rgb(84, 5, 84);
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rgb(84, 5, 84);
+  min-width: 80px;
+  min-height: 80px;
+  gap: 4px;
+  background-color: white;
+}
+
+.item__letter {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.item__tool {
+  font-size: 0.9rem;
+}
