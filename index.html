@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Drum Keys</title>
+  <link href="/favicon.ico" rel="icon">
   <link rel="stylesheet" href="css/nullstyle.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,46 +16,68 @@
 </head>
 
 <body>
-  <main class="main auto-spaced-linear-gradient">
-    <div class="keys">
-      <div class="keys__item item" data-key="KeyA">
-        <div class="item__letter">A</div>
-        <div class="item__tool">CLAP</div>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__heading heading">
+          <h1 class="heading__h1">Drum Keys</h1>
+          <img src="assets/drum.png" alt="Drum" class="heading__img">
+        </div>
+        <p class="header__description">Use your <span class="header__description_accent">keyboard</span> to create a
+          masterpiece!
+        </p>
       </div>
-      <div class="keys__item item" data-key="KeyS">
-        <div class="item__letter">S</div>
-        <div class="item__tool">HIHAT</div>
+    </header>
+    <main class="main">
+      <div class="main__wrapper">
+        <div class="keys">
+          <div class="keys__item item" data-key="KeyA">
+            <div class="item__letter">A</div>
+            <div class="item__tool">CLAP</div>
+          </div>
+          <div class="keys__item item" data-key="KeyS">
+            <div class="item__letter">S</div>
+            <div class="item__tool">HIHAT</div>
+          </div>
+          <div class="keys__item item" data-key="KeyD">
+            <div class="item__letter">D</div>
+            <div class="item__tool">KICK</div>
+          </div>
+          <div class="keys__item item" data-key="KeyF">
+            <div class="item__letter">F</div>
+            <div class="item__tool">OPENHAT</div>
+          </div>
+          <div class="keys__item item" data-key="KeyG">
+            <div class="item__letter">G</div>
+            <div class="item__tool">BOOM</div>
+          </div>
+          <div class="keys__item item" data-key="KeyH">
+            <div class="item__letter">H</div>
+            <div class="item__tool">RIDE</div>
+          </div>
+          <div class="keys__item item" data-key="KeyJ">
+            <div class="item__letter">J</div>
+            <div class="item__tool">SNARE</div>
+          </div>
+          <div class="keys__item item" data-key="KeyK">
+            <div class="item__letter">K</div>
+            <div class="item__tool">TOM</div>
+          </div>
+          <div class="keys__item item" data-key="KeyL">
+            <div class="item__letter">L</div>
+            <div class="item__tool">TINK</div>
+          </div>
+        </div>
       </div>
-      <div class="keys__item item" data-key="KeyD">
-        <div class="item__letter">D</div>
-        <div class="item__tool">KICK</div>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <p class="footer__contact">
+          By <a href="https://github.com/id-andyyy" class="footer__link" target="_blank">Andy</a>
+        </p>
       </div>
-      <div class="keys__item item" data-key="KeyF">
-        <div class="item__letter">F</div>
-        <div class="item__tool">OPENHAT</div>
-      </div>
-      <div class="keys__item item" data-key="KeyG">
-        <div class="item__letter">G</div>
-        <div class="item__tool">BOOM</div>
-      </div>
-      <div class="keys__item item" data-key="KeyH">
-        <div class="item__letter">H</div>
-        <div class="item__tool">RIDE</div>
-      </div>
-      <div class="keys__item item" data-key="KeyJ">
-        <div class="item__letter">J</div>
-        <div class="item__tool">SNARE</div>
-      </div>
-      <div class="keys__item item" data-key="KeyK">
-        <div class="item__letter">K</div>
-        <div class="item__tool">TOM</div>
-      </div>
-      <div class="keys__item item" data-key="KeyL">
-        <div class="item__letter">L</div>
-        <div class="item__tool">TINK</div>
-      </div>
-    </div>
-  </main>
+    </footer>
+  </div>
   <audio data-key="KeyA" src="sounds/clap.wav"></audio>
   <audio data-key="KeyS" src="sounds/hihat.wav"></audio>
   <audio data-key="KeyD" src="sounds/kick.wav"></audio>

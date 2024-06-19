@@ -12,5 +12,6 @@ function playSound(event) {
 
 function returnOriginalStyle(event) {
   const itemNode = document.querySelector(`.item[data-key="${event.code}"]`);
+  if (!itemNode) return;
   itemNode.classList.remove('item_active');
 }
