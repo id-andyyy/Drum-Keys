@@ -114,9 +114,16 @@ body {
   gap: .3rem;
   background-color: white;
   transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.item_active {
+.item_active,
+.item:active {
   border: .17rem solid rgb(255, 145, 0);
   color: rgb(255, 145, 0);
   transform: scale(1.2);
