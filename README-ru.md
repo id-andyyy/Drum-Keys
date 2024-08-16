@@ -1,9 +1,9 @@
 ![Арт](https://i.postimg.cc/LsqBjBxS/art.png)
 
-![GitHub Created At](https://img.shields.io/github/created-at/id-andyyy/Drum-Keys?style=flat-square&color=%23540554)
-![Lines Of Code](https://tokei.rs/b1/github/id-andyyy/Drum-Keys?style=flat-square&category=code&color=%23FF9100)
-![Top Language](https://img.shields.io/github/languages/top/id-andyyy/Drum-Keys?style=flat-square)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fid-andyyy.github.io%2FDrum-Keys%2F&style=flat-square)
+![GitHub Created At](https://img.shields.io/github/created-at/id-andyyy/Drum-Keys?style=flat&color=%23540554)
+![Lines Of Code](https://tokei.rs/b1/github/id-andyyy/Drum-Keys?style=flat&category=code&color=%23FF9100)
+![Top Language](https://img.shields.io/github/languages/top/id-andyyy/Drum-Keys?style=flat)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fid-andyyy.github.io%2FDrum-Keys%2F&style=flat)
 
 # Drum Keys&nbsp;&#129345;
 
@@ -36,7 +36,6 @@
 - БЭМ методология
 - Чистый JavaScript (код разбит на функции)
 - Настроены мета-теги
-- Один из моих самых первых проектов
 
 ## Обратная связь
 
